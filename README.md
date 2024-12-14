@@ -124,6 +124,14 @@ out = isSameArrayLike( x, y );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/assert-is-array-like`][@stdlib/assert/is-array-like]</span><span class="delimiter">: </span><span class="description">test if a value is array-like.</span>
+-   <span class="package-name">[`@stdlib/assert-is-same-array`][@stdlib/assert/is-same-array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both generic arrays and have the same values.</span>
+-   <span class="package-name">[`@stdlib/assert-is-same-value`][@stdlib/assert/is-same-value]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
+
 </section>
 
 <!-- /.related -->
@@ -203,6 +211,10 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert-is-same-value
 
 <!-- <related-links> -->
+
+[@stdlib/assert/is-array-like]: https://github.com/stdlib-js/assert-is-array-like
+
+[@stdlib/assert/is-same-array]: https://github.com/stdlib-js/assert-is-same-array
 
 <!-- </related-links> -->
 
