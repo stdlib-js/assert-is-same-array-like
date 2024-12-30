@@ -35,38 +35,32 @@ limitations under the License.
 
 > Test if two arguments are both array-like and have the [same values][@stdlib/assert/is-same-value].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-same-array-like
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isSameArrayLike = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array-like@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isSameArrayLike = require( 'path/to/vendor/umd/assert-is-same-array-like/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array-like@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isSameArrayLike;
-})();
-</script>
+var isSameArrayLike = require( '@stdlib/assert-is-same-array-like' );
 ```
 
 #### isSameArrayLike( v1, v2 )
@@ -103,13 +97,8 @@ bool = isSameArrayLike( x, [ -1.0, 2.0 ] );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array-like@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var isSameArrayLike = require( '@stdlib/assert-is-same-array-like' );
 
 var x = [ 1.0, 2.0, 3.0 ];
 var y = [ 1.0, 2.0, 3.0 ];
@@ -125,11 +114,6 @@ x = [ NaN, NaN, NaN ];
 y = [ NaN, NaN, NaN ];
 out = isSameArrayLike( x, y );
 // returns true
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -224,13 +208,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-same-array-like/main/LICENSE
 
-[@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert-is-same-value/tree/umd
+[@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert-is-same-value
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-array-like]: https://github.com/stdlib-js/assert-is-array-like/tree/umd
+[@stdlib/assert/is-array-like]: https://github.com/stdlib-js/assert-is-array-like
 
-[@stdlib/assert/is-same-array]: https://github.com/stdlib-js/assert-is-same-array/tree/umd
+[@stdlib/assert/is-same-array]: https://github.com/stdlib-js/assert-is-same-array
 
 <!-- </related-links> -->
 
