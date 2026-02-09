@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSameArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array-like@esm/index.mjs';
+import isSameArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array-like@v0.1.1-esm/index.mjs';
 ```
 
 #### isSameArrayLike( v1, v2 )
@@ -85,7 +85,7 @@ bool = isSameArrayLike( x, [ -1.0, 2.0 ] );
 <body>
 <script type="module">
 
-import isSameArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array-like@esm/index.mjs';
+import isSameArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array-like@v0.1.1-esm/index.mjs';
 
 var x = [ 1.0, 2.0, 3.0 ];
 var y = [ 1.0, 2.0, 3.0 ];
