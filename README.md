@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isSameArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array-like@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-same-array-like/tags). For example,
+
+```javascript
 import isSameArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array-like@v0.1.1-esm/index.mjs';
 ```
 
@@ -85,7 +90,7 @@ bool = isSameArrayLike( x, [ -1.0, 2.0 ] );
 <body>
 <script type="module">
 
-import isSameArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array-like@v0.1.1-esm/index.mjs';
+import isSameArrayLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-array-like@esm/index.mjs';
 
 var x = [ 1.0, 2.0, 3.0 ];
 var y = [ 1.0, 2.0, 3.0 ];
